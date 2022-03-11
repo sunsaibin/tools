@@ -1,8 +1,8 @@
 {
-    "name": "sabine",
+    "name": "sabine/tools",
     "autoload": {
         "psr-4": {
-            "Sabine\\": "src/"
+            "Sabine\\Tools\\": "src/"
         }
     },
     "authors": [
