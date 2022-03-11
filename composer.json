@@ -1,0 +1,15 @@
+{
+    "name": "admin/tools",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Tools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bin",
+            "email": "280040021@qq.com"
+        }
+    ],
+    "require": {}
+}
