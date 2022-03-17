@@ -1,5 +1,5 @@
 <?php
-namespace Sabine\Hashids;
+namespace Sabine\Tools\Hashids;
 
 class Hashids implements HashGenerator {
 

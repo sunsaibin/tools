@@ -1,5 +1,5 @@
 <?php
-namespace Sabine\Util;
+namespace Sabine\Tools\Util;
 
 use InvalidArgumentException;
 

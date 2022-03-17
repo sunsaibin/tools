@@ -1,7 +1,7 @@
 <?php
 declare (strict_types=1);
 
-namespace Sabine\Util;
+namespace Sabine\Tools\Util;
 
 class Strs {
 

@@ -6,7 +6,7 @@ declare (strict_types=1);
  * @author  zhaoxiang <zhaoxiang051405@gmail.com>
  */
 
-namespace Sabine\Util;
+namespace Sabine\Tools\Util;
 
 class StrRandom {
 

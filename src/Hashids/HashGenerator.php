@@ -1,5 +1,5 @@
 <?php
-namespace Sabine\Hashids;
+namespace Sabine\Tools\Hashids;
 
 /**
  * HashGenerator is a contract for generating hashes

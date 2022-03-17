@@ -1,5 +1,5 @@
 <?php
-namespace Sabine\Util;
+namespace Sabine\Tools\Util;
 
 /**
  * Class Tools
@@ -36,7 +36,7 @@ class Tools {
      */
     public static function userMd5(string $str, string $auth_key = ''): string {
         if (!$auth_key) {
-            $auth_key = config('apiadmin.AUTH_KEY');
+            $auth_key = config('common.auth_key');
         }
 
         return '' === $str ? '' : md5(sha1($str) . $auth_key);

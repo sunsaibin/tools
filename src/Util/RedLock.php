@@ -1,5 +1,5 @@
 <?php
-namespace Sabine\Util;
+namespace Sabine\Tools\Util;
 
 /**
  * redis分布式锁
