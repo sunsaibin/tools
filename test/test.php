@@ -1,6 +1,11 @@
 <?php
 require_once '../vendor/autoload.php';
 
-use Sabine\Util\Tools;
-
-var_dump(Tools::userMd5('123456'));
+use Sabine\Tools\Idcard\IdValidator;
+$obj = new IdValidator();
+$idcard = '11010120000101568X';
+$valid = $obj->isValid($idcard,true);
+if($valid) {
+    $info = $obj->getInfo($idcard);
+    var_dump($info);
+}
