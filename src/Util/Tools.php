@@ -156,7 +156,7 @@ class Tools {
      */
     public static function encodeId(int $id, $len = null, $key = null, $alphabet = null)
     {
-        $hashids = \Sabine\Hashids\Hashids::instance($len,$key,$alphabet);
+        $hashids = \Sabine\Tools\Hashids\Hashids::instance($len,$key,$alphabet);
         $encodeId = $hashids->encode($id);
         return $encodeId;
     }
@@ -171,7 +171,7 @@ class Tools {
      */
     public static function decodeId(string $id, $len = null, $key = null, $alphabet = null)
     {
-        $hashids = \Sabine\Hashids\Hashids::instance($len,$key,$alphabet);
+        $hashids = \Sabine\Tools\Hashids\Hashids::instance($len,$key,$alphabet);
         $decodeId = $hashids->decode($id);
         return $decodeId;
     }
